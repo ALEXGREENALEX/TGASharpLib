@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGASharpLib", "TGASharpLib\TGASharpLib.csproj", "{7FA35D6C-F456-4286-9F78-FF17A076DDBF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A11F894-B8BF-4F49-8424-0575B22F3DD4} = {5A11F894-B8BF-4F49-8424-0575B22F3DD4}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureBox_Ext", "PictureBoxExt\PictureBox_Ext.csproj", "{5A11F894-B8BF-4F49-8424-0575B22F3DD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FA35D6C-F456-4286-9F78-FF17A076DDBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA35D6C-F456-4286-9F78-FF17A076DDBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA35D6C-F456-4286-9F78-FF17A076DDBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA35D6C-F456-4286-9F78-FF17A076DDBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A11F894-B8BF-4F49-8424-0575B22F3DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A11F894-B8BF-4F49-8424-0575B22F3DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A11F894-B8BF-4F49-8424-0575B22F3DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A11F894-B8BF-4F49-8424-0575B22F3DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {197C6E56-2F5C-49A1-BE77-DF120448740E}
+	EndGlobalSection
+EndGlobal
